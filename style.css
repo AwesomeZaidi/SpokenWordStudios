@@ -1,0 +1,14 @@
+.text_edit {
+	width: 500px;
+	height: 300px;
+	resize: none;
+}
+#toolbar {
+    width: 36%;
+    height: 25px;
+    top: 0;
+    left: 0;
+    padding: 5px 10px;
+    background: #ccc; /* some styling */
+    border-bottom: 1px solid #333; /* some styling */
+}
