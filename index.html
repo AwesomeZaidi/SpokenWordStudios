@@ -1,0 +1,36 @@
+<!DOCTYPE HTML>
+
+<html>
+<head>
+    <script src="https://cdn.firebase.com/js/client/2.4.1/firebase.js"></script>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+	<title>Lyric editor</title>
+	<link rel="stylesheet" type="text/css" href="style.css" />
+	
+	
+	
+</head>
+<body>
+    
+    <script>
+    var myFirebaseRef = new Firebase('https://spoken-word-studios.firebaseio.com/');
+    </script>
+	
+	<!-- Menu -->
+    <div id= "toolbar">
+	<input type="button" value="B"/>
+	<input type="button" value="I"/>
+	<input type="button" value="U" />
+    <input type="button" value="More text formatting options"/>
+    <br />
+    </div>
+	<!-- Text area -->
+	<textarea class="text_edit" id="my_text"></textarea>
+	<br />
+	
+
+	
+
+
+</body>
+</html>
